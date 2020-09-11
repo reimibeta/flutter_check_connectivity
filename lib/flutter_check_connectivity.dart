@@ -68,7 +68,8 @@ class _FlutterCheckConnectivityState extends State<FlutterCheckConnectivity> {
         break;
     }
     // return connection
-    widget.onConnected(_isConnection);
+    if(widget.onConnected != null)
+      widget.onConnected(_isConnection);
   }
 
   @override

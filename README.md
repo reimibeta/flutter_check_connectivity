@@ -3,7 +3,7 @@
 
 # use 
 <pre>
-InternetCheck(
+FlutterCheckConnectivity(
     onConnected: (check){
       
     },

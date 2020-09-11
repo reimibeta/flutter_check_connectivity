@@ -12,7 +12,7 @@ class FlutterCheckConnectivity extends StatefulWidget {
 
   FlutterCheckConnectivity({Key key,
     this.onConnected,
-    this.disconnectedWidget
+    @required this.disconnectedWidget
   }):super(key: key);
 
   @override

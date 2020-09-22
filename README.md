@@ -5,8 +5,8 @@
 <pre>
 FlutterCheckConnectivity(
     onConnected: (check){
-      
+
     },
-    disconnectedWidget:() => Center(child: Text("no internet connection."))
+    disconnectedWidget: Center(child: Text("no internet connection."))
 )
 </pre>

@@ -87,18 +87,7 @@ class _FlutterCheckConnectivityState extends State<FlutterCheckConnectivity> {
 
   @override
   Widget build(BuildContext context) {
-    Widget _connectionWidget = Container();
-    if(_isConnection){
-      setState(() {
-        _connectionWidget = widget.disconnectedWidget;
-      });
-    } else {
-      setState(() {
-        _connectionWidget = Container();
-      });
-    }
-    // return _isConnection == false ? widget.disconnectedWidget : Container();
-    return _connectionWidget;
+    return _isConnection == false ? widget.disconnectedWidget : Container();
   }
 }
 

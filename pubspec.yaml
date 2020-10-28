@@ -12,7 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  connectivity: ^0.4.9+2
+  connectivity: ^2.0.0
 
 dev_dependencies:
   flutter_test:
